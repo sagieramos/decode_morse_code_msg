@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="Blankdiagram.png" alt="logo" max-width="746px"  height="auto" />
+  <img src="./Screenshot from 2023-11-02 01-48-52.png" alt="logo" max-width="746px"  height="auto" />
   <br/>
 
   <h3><b>Decode a Morse code message</b></h3>
