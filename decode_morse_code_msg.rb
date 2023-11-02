@@ -30,7 +30,14 @@ MORSE_CODE_TO_CHAR = {
 }.freeze
 
 def decode_char(morse)
-  (MORSE_CODE_TO_CHAR[morse]) || nil
+  (MORSE_CODE_TO_CHAR[morse]) || morse
 end
 
-print("#{decode_char('.--')}\n")
+def decode_word(morse)
+  morse_char = morse.split(' ')
+  decode_word = ''
+  morse_char.each { |i| decode_word << decode_char(i) }
+  decode_word
+end
+
+print("#{decode_word('-- -.--')}\n")
