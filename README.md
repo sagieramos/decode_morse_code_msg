@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="Blankdiagram.png" alt="logo" max-width="746px"  height="auto" />
+  <img src="./Screenshot from 2023-11-02 01-48-52.png" alt="logo" max-width="746px"  height="auto" />
   <br/>
 
   <h3><b>Decode a Morse code message</b></h3>
@@ -20,6 +20,7 @@
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
+    - [For Unix:](#for-unix)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -84,6 +85,23 @@ Install this project with:
 
 To run tests, run the following command:
 
+``` sh
+  ruby decode_morse_code_msg.rb
+```
+
+### For Unix:
+
+First, you'll need to make the script executable
+
+``` sh
+  chmod +x decode_morse_code_msg.rb
+```
+
+Then run this line in your terminal
+
+``` sh
+  ./decode_morse_code_msg.rb
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,6 +113,11 @@ To run tests, run the following command:
 - Twitter: [@sagieramos](https://twitter.com/sagieramos)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sagieramos)
 
+👤 **Lucy W. Mwangi**
+
+- GitHub: [@lucy-sees](https://github.com/lucy-sees)
+- Twitter: [@lucy_w_mwangi](https://twitter.com/lucy_w_mwangi)
+- LinkedIn: [Lucy (Wanjiru) Mwangi](https://www.linkedin.com/in/lucy-wanjiru-mwangi)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -139,6 +162,6 @@ If you like this project, please stay tune for more features
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/sagieramos/decode_morse_code_msg/blob/3fc0b09b8d7f0ddafbb78ea540449e00e7162866/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
