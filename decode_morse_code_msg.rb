@@ -34,7 +34,7 @@ def decode_char(morse)
 end
 
 def decode_word(morse)
-  morse_char = morse.split(' ')
+  morse_char = morse.split
   decode_word = ''
   morse_char.each { |i| decode_word << decode_char(i) }
   decode_word
@@ -42,9 +42,7 @@ end
 
 def decode(morse)
   morse_str = morse.split('   ')
-  decode_str = ''
-  morse_str.each { |i| decode_str << decode_word(i) + ' ' }
-  decode_str
+  morse_str.map { |i| decode_word(i) }.join(' ')
 end
 
 print("\n #{decode('      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')}\n\n")
