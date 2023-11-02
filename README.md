@@ -20,6 +20,7 @@
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
+    - [For Unix:](#for-unix)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -84,6 +85,23 @@ Install this project with:
 
 To run tests, run the following command:
 
+``` sh
+  ruby decode_morse_code_msg.rb
+```
+
+### For Unix:
+
+First, you'll need to make the script executable
+
+``` sh
+  chmod +x decode_morse_code_msg.rb
+```
+
+Then run this line in your terminal
+
+``` sh
+  ./decode_morse_code_msg.rb
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -40,4 +40,11 @@ def decode_word(morse)
   decode_word
 end
 
-print("#{decode_word('-- -.--')}\n")
+def decode(morse)
+  morse_str = morse.split('   ')
+  decode_str = ''
+  morse_str.each { |i| decode_str << decode_word(i) + ' ' }
+  decode_str
+end
+
+print("#{decode('      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')}\n")
