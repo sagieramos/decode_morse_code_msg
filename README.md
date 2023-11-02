@@ -113,6 +113,11 @@ Then run this line in your terminal
 - Twitter: [@sagieramos](https://twitter.com/sagieramos)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sagieramos)
 
+👤 **Lucy W. Mwangi**
+
+- GitHub: [@lucy-sees](https://github.com/lucy-sees)
+- Twitter: [@lucy_w_mwangi](https://twitter.com/lucy_w_mwangi)
+- LinkedIn: [Lucy (Wanjiru) Mwangi](https://www.linkedin.com/in/lucy-wanjiru-mwangi)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -157,6 +162,6 @@ If you like this project, please stay tune for more features
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/sagieramos/decode_morse_code_msg/blob/3fc0b09b8d7f0ddafbb78ea540449e00e7162866/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
